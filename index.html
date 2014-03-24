@@ -98,7 +98,7 @@
 <body>
   <div class="dialog">
     <div class="logo"></div>
-    <h1>Hello!</h1>
+    <h1><%= ENV['NAME'] ? "Hello #{ENV['NAME']}!" : "Hello!" %></h1>
     <p>If you're seeing this page, you've probably successfully deployed an app to Aptible.</p>
   </div>
   <ul>
