@@ -1,3 +1,4 @@
+FROMCACHE aptible-ruby
 FROM quay.io/aptible/ruby:ruby-2.0.0
 
 ADD . /opt/test-app
