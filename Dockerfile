@@ -1,5 +1,4 @@
-FROMCACHE aptible-ruby
-FROM quay.io/aptible/ruby:ruby-2.0.0
+FROM quay.io/aptible/webapp-essential
 
 ADD . /opt/test-app
 WORKDIR /opt/test-app
