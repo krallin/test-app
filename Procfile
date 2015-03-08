@@ -1,1 +1,1 @@
-web: bundle exec rackup -p $PORT -o 0.0.0.0
+web: nginx && bundle exec rackup -p 3000 -o 0.0.0.0
