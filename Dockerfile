@@ -9,4 +9,4 @@ RUN bundle install --without development test
 
 EXPOSE 80
 
-CMD bundle exec rackup -p 3000
+CMD nginx && bundle exec rackup -p 3000 -o 0.0.0.0
