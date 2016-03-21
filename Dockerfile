@@ -10,5 +10,6 @@ RUN bundle install --without development test
 EXPOSE 80
 EXPOSE 300
 EXPOSE 400
+EXPOSE 500
 
 CMD nginx && bundle exec rackup -p 3000 -o 0.0.0.0
